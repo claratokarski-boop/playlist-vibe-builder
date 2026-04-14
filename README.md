@@ -9,7 +9,7 @@ I chose Merge Sort because it has a predictable time complexity of O(n log n) wh
 
 ## Demo (video/gif/screenshot of at least one run)
 
-[demo_screenshot](image-url)
+[demo_screenshot](demo_screenshot)
 
 ## Problem Breakdown & Computational Thinking (include a flowchart + the 4 pillars as brief bullets)
 
