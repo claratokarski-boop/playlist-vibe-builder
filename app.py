@@ -41,7 +41,7 @@ def merge(left, right, key, increasing):
     return result
 
 
-def parse_playlist(song_text):
+def check_playlist(song_text):
     playlist = []
 
     if not song_text.strip():
@@ -97,7 +97,7 @@ def format_playlist(playlist):
 
 
 def sort_playlist(song_text, category, order):
-    playlist, error = parse_playlist(song_text)
+    playlist, error = check_playlist(song_text)
 
     if error:
         return error
