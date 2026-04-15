@@ -60,8 +60,9 @@ NO: Return to start
 - **Algorithm Design** : 
 
 ## Steps to Run (local) + requirements.txt
-
-
+- Download the repository
+- Install gradio using `pip install -r requirements.txt`
+- Run `app.py`
 
 ## Hugging Face Link
 
@@ -69,4 +70,13 @@ https://huggingface.co/spaces/ClaraTokarski/playlist-vibe-builder
 
 ## Testing (what you tried + edge cases)
 
+For the testing of my project, I tried a few things. When I first created the most basic version of my code, it asked the user to input all the information about each song by typing it all at once into a text box with a specific format of "song, artist, energy, duration". After ceating this code I decided to change the entry strategy because it was defficult to screen for incorrect inputs. This is because certain parts of the the input (energy and duration) must be integers. To fix this, I changed the code so that the user inputs each piece of information one at a time, and then I was abloe to make each section screen to make sure that the proper type of variable had been provided. 
+Secondly, while testing my code, I had to account for several edge cases. I made sure that the code accounts for if there is only one song provided, if there are identical songs or songs of the same duration/energy, and if there is no input. 
+
 ## Author & Acknowledgment (sources + AI use, if any)
+
+Author :  Clara Tokarski
+
+Resources : Stack Overflow to understand merge sort
+
+AI : No AI was used.
